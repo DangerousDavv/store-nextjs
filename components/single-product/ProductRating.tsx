@@ -1,6 +1,6 @@
 import { FaStar } from "react-icons/fa";
 
-function ProductRating({ productIt }: { productId: string }) {
+function ProductRating({ productId }: { productId: string }) {
   // temp
   const rating = 4.2;
   const count = 25;
