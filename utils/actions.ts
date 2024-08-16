@@ -520,10 +520,10 @@ export const createOrderAction = async (prevState: any, formData: FormData) => {
         await db.order.deleteMany({
             where: {
                 clerkId: user.id,
-                isPaid: false,
+                isPaid: false ,
             },
         })
-
+        // 111
         const order = await db.order.create({
             data: {
                 clerkId: user.id,
